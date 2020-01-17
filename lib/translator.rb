@@ -14,7 +14,6 @@ def load_library(file)
       hash[:get_emoticon][value[0]] = value[1]
 
     }
-
     hash
 end
 
