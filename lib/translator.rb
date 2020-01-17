@@ -33,6 +33,9 @@ def get_english_meaning(file, emoticon)
   # code goes here
   hash = load_library(file)
 
-
+  if !hash[:meaning][emoticon]
+    return "Sorry, that emoticon was not found"
+  end
+  hash[:meaning][emoticon]
 
 end
