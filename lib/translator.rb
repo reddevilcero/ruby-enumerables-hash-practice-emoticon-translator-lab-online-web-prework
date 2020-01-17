@@ -15,7 +15,7 @@ def load_library(file)
 
     }
 
-pp hash
+    hash
 end
 
 def get_japanese_emoticon(file, emoticon)
