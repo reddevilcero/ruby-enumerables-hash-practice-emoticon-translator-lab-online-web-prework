@@ -10,7 +10,7 @@ def load_library(file)
   emoticons_file = YAML.load_file(file)
 
   emoticons_file.each { |key,value|
-    hash[:get_meaning] << key
+
 
     }
 
