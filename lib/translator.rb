@@ -21,9 +21,9 @@ end
 def get_japanese_emoticon(file, emoticon)
   # code goes here
   hash = load_library(file)
-  
+
 hash[:get_emoticon][emoticon]?  hash[:get_emoticon][emoticon] : "Sorry, the emoticon => #{emoticon} does exist"
-    
+
 end
 
 def get_english_meaning
