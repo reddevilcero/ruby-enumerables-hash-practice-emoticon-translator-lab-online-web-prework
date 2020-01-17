@@ -4,7 +4,12 @@ require "yaml"
 def load_library(file)
   # code goes here
   emoticons_file = YAML.load_file(file)
-  p emoticons_file
+
+  emoticons_file.each { |key,value|
+
+    p key
+    p value
+    }
 
 end
 
