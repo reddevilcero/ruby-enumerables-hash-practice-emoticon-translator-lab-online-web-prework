@@ -4,8 +4,8 @@ require "yaml"
 def load_library(file)
   # code goes here
   hash = {
-    get_meaning: [],
-    get_emoticon: []
+    get_meaning: {},
+    get_emoticon: {}
   }
   emoticons_file = YAML.load_file(file)
 
