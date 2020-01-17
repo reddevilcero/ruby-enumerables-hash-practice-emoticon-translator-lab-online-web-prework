@@ -28,7 +28,7 @@ def get_japanese_emoticon(file, emoticon)
     return hash[:get_emoticon][emoticon]
 
   else
-    "Sorry no emoticon found"
+    return "Sorry no emoticon found"
 
   end
 end
