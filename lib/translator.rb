@@ -29,7 +29,10 @@ def get_japanese_emoticon(file, emoticon)
   hash[:get_emoticon][emoticon]
 end
 
-def get_english_meaning
+def get_english_meaning(file, emoticon)
   # code goes here
+  hash = load_library(file)
+
+
 
 end
