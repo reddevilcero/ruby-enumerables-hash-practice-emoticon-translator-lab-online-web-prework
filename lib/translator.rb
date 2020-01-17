@@ -4,12 +4,6 @@ require "yaml"
 def load_library(file)
   # code goes here
   hash = {}
-  emoticons = YAML.load_file(file)
-  emoticons.each { |key, value|
-
-    hash[:get_meaning] = key
-
-   }
 
    hash
 end
