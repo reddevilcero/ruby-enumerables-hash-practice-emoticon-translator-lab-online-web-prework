@@ -4,13 +4,13 @@ require "yaml"
 def load_library(file)
   # code goes here
   hash = {
-    get_meaning: {},
-    get_emoticon: {}
+    :get_meaning => {},
+    :get_emoticon => {}
   }
   emoticons_file = YAML.load_file(file)
 
   emoticons_file.each { |key,value|
-      p value[1]
+      hash[:get_meaning]value[1] = []
 
     }
 
