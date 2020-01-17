@@ -11,6 +11,7 @@ def load_library(file)
 
   emoticons_file.each { |key,value|
       hash[:get_meaning][value[1]] = key
+      hash[:get_emoticon][value[0]] = key
 
     }
 
